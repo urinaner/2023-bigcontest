@@ -8,6 +8,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import lombok.Data;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -19,6 +20,8 @@ public class EventBoardService {
 
     public EventBoardService(EventBoardRepository eventBoardRepository){
         this.eventBoardRepository = eventBoardRepository;
+    }
+    void sync() {
     }
 
     public List<EventBoardResponse> getEventBoardList(){
@@ -92,6 +95,7 @@ public class EventBoardService {
     private double getSafeDouble(JsonObject obj, String key) {
         return obj.has(key) && !obj.get(key).isJsonNull() ? obj.get(key).getAsDouble() : 0.0;
     }
+
 
 
 }
