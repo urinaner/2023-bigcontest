@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+beautifulsoup4 = "*"
+black = "*"
+tiktoken = "*"
+openai = "*"
+pinecone-client = "*"
+unstructured = "*"
+nltk = "*"
+fastapi = "*"
+jinja2 = "*"
+uvicorn = "*"
+streamlit-chat = "*"
+tqdm = "*"
+faiss-cpu = "*"
+chromadb = "*"
+watchdog = "*"
+duckduckgo-search = "*"
+pandas = "*"
+streamlit-feedback = "*"
+streamlit = "*"
+async-timeout = "*"
+scipy = "*"
+matplotlib = "*"
+sklearn = "*"
+numpy = "*"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.4"
