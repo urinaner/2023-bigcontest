@@ -1,6 +1,7 @@
 # 2023 빅콘테스트: 생성형 AI 분야 결과 보고서
 
 본 프로젝트는 **Finda 앱** 데이터를 활용하여 **LLM(Large Language Model)** 기반 사용자 데이터 분석 및 자동화 보고서를 생성하는 과정을 다룹니다. 다양한 사용자 대출 예측 모델을 만들고, 사용자 특성에 따른 군집화를 수행한 뒤, 이를 **LLM**을 이용해 자동화하는 방법에 대해 정리하였습니다.
+
 <img width="250" alt="image" src="https://github.com/user-attachments/assets/701f445b-f817-447c-b990-5e4ecb97792f" />
 
 
